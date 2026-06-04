@@ -9,7 +9,8 @@ logger = logging.getLogger(__name__)
 
 # --- ENVIRONMENT VARIABLES ---
 TOKEN = os.getenv("BOT_TOKEN")
-CHANNEL_LINK = os.getenv("CHANNEL_LINK", "https://t.me/gladiatorsofgold")
+# Updated the default channel link here
+CHANNEL_LINK = os.getenv("CHANNEL_LINK", "https://t.me/gladiatoracademy99")
 
 # --- IMAGE LIST ---
 IMAGES = [
